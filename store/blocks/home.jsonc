@@ -3,8 +3,15 @@
     "blocks": [
       "flex-layout.row",
       "info-card#button-right",
-      "info-card#button-left"
+      "info-card#button-left",
+      "rich-text"
     ]
+  },
+  "rich-text": {
+    "props": {
+      "text": "**Hello, World!**",
+      "textPosition": "RIGHT"
+    }
   },
   "info-card#button-right": {
     "props": {
